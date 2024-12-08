@@ -12,7 +12,6 @@
   "author": "AlLi",
   "license": "ISC",
   "dependencies": {
-    "@hexlet/chat-server": "^2.0.4",
-    "react-scripts": "^5.0.1"
+    "@hexlet/chat-server": "^2.0.4"
   }
 }
