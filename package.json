@@ -8,11 +8,11 @@
     "start": "start-server -s ./frontend/build",
     "build": "npm run build --prefix frontend",
     "postinstall": "cd frontend && npm ci"
-   
   },
   "author": "AlLi",
   "license": "ISC",
   "dependencies": {
-    "@hexlet/chat-server": "^2.0.4"
+    "@hexlet/chat-server": "^2.0.4",
+    "react-scripts": "^5.0.1"
   }
 }
