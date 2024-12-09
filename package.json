@@ -4,10 +4,9 @@
   "description": "[![Actions Status](https://github.com/AlLi92/frontend-project-12/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/AlLi92/frontend-project-12/actions)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "start-server -s ./frontend/build",
     "build": "npm run build --prefix frontend",
-    "postinstall": "cd frontend && npm ci"
+    "start": "start-server -s ./frontend/build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "AlLi",
   "license": "ISC",
